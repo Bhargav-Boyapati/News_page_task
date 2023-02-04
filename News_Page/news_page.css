@@ -1,0 +1,137 @@
+.web_page
+{
+    margin-left:5px;
+    margin-top: 5px;
+    margin-right:5px;
+    font-family:sans-serif;
+}
+
+.titlebox
+{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:rgb(1,1,65) ;
+    justify-content: center;
+}
+.titlebox > div
+{
+    background-color: white;
+    text-align: center;
+    line-height: 5px;
+    margin:10px;
+    width:300px;
+    border:1px solid red;
+}
+
+#blog
+{
+    font-size: 19px;
+    font-weight: 1000;
+}
+
+#world_wide
+{
+    font-size:10px;
+    font-weight: 1000;
+}
+
+.heading_box
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.category
+{
+    font-size:14px;
+    font-weight: 800;
+    flex-grow: 4;
+    margin-left:20px ;
+    margin-top:15px;
+}
+
+.title
+{
+    flex-grow:6;
+    font-size:30px;
+    text-align: center;
+}
+
+.subscribe
+{
+    text-align: left;
+    flex-grow:2.5;
+    font-size:14px;
+    font-weight: 800;
+    margin-top:15px;
+}
+
+#subscibe_button
+{
+    color:white;
+    background: black;
+    border:1px solid white;
+}
+
+.line1
+{
+    border-bottom: 1.5px solid black;
+}
+
+.line
+{
+    margin-top: 20px;
+    border-bottom: 1.5px solid black;
+}
+
+.image
+{
+    height:200px;
+}
+
+.description
+{
+    margin-left: 20px;
+}
+
+.news_title
+{
+    color:blue;
+    margin-top: 2px;
+}
+
+.news_button
+{
+    color:white;
+    background-color: orangered;
+    border-color: white;
+    padding :10px;
+}
+
+.footer
+{
+    background-color:rgb(1,1,65) ;
+    color:white;
+    text-align: center;
+}
+
+@media screen and (min-width:600px)
+{
+    .news
+    {   
+        display:flex;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px)
+{
+    .news
+    {   
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }    
+}
